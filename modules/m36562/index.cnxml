@@ -1,0 +1,16 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Loud Speaker Equalization Project Conclusions</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m36562</md:content-id>
+  <md:title>Loud Speaker Equalization Project Conclusions</md:title>
+  <md:abstract>ELEC 301 Project Conclusions</md:abstract>
+  <md:uuid>4910479c-6219-4280-bf21-4308c466b539</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1898011">
+      <title>Conclusion: Get a Better Mic</title>
+      <para id="id1758257">Using white noise and MATLAB’s FIR design tools successfully implements an inverse filter on TI’s 3245 EVM which flattens the systems frequency response. Unfortunately, when music was played through the exemplar speaker, various high frequencies would be over-amplified, creating hissing. Throughout the design of its inverse filter a relatively low end microphone, designed primarily to pick up speech signals, was used. After comparing what the frequency response of our system looks like compared to how it actually sounds, it’s clear it was the microphone itself that was causing the attenuation of higher frequencies. Thus by amplifying higher frequencies, the inverse filter flattened the frequency response of the system but spoilt the frequency response of the speaker.</para>
+    </section>
+  </content>
+</document>
